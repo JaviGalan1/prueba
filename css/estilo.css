@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.df-navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(182, 4, 78);
+    background-color: rgb(205, 162, 247);
+    height: 100px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    border-radius: 50%;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+   
+}
+
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+}
+
+ul li a {
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+    padding: 1rem;
+    font-weight: bold;
+    color: rgb(165, 46, 101);
+
+
+}
+
+ul li a:hover {
+    background-color: blueviolet;
+    color: brown;
+    border-radius: 8px;
+}
+
+body {
+    background-color: rgb(167, 167, 250);
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+
+.cajaFormu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+
+}
+
+.fotos-trabajos {
+    display: flex;
+    justify-content: center;
+}
+
+section ol {
+    list-style-type: none;
+}
+
+ol ul {
+    list-style-type: none;
+}
+
+section ol li {
+    color: crimson;
+    height: 2rem;
+    font-weight: bold;
+}
+
+section ol ul li {
+    color: black;
+    font-weight: bold;
+
+}
+
+.campo {
+    margin: 10px;
+    padding: 5px;
+
+}
+
+.dato {
+    margin: 10px;
+    padding: 5px;
+}
+
+.mail {
+    margin: 10px;
+    padding: 5px;
+}
+
+.mate {
+    height: 300px;
+}
+
+.mapa {
+    padding: 5px;
+}
+
+.productos img {
+    padding: 10px;
+}
+
+.rollos {
+    width: 300px;
+}
+
+.foto-naranja {
+    width: 300px;
+    height: 300px;
+}
+
+.subtitulo {
+    text-decoration: none;
+    color: rgb(74, 25, 207);
+    text-align: center;
+    padding: 10px;
+
+}
+
+.materiales h2 {
+    color: rgb(37, 3, 70);
+    padding: 5px;
+}
+
+.materiales ol {
+    padding-top: 5px;
+}
+
+.materiales ol li {
+    padding: 5px;
+    list-style-type: none;
+}
+
+.bg-footer {
+    background-color: rgb(194, 145, 240);
+    padding: 10px;
+}
+
+.tex-footer {
+    text-transform: capitalize;
+    color: rgb(7, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.redes a i {
+    text-align: center;
+    padding: 10px;
+    color: blueviolet;
+
+}
+
+.df-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes a i:hover {
+    transform: scale(1.3, 1.3);
+    transition: all 0.7s ease;
+    color: rgb(28, 175, 28);
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.sucursales p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.gridConteiner {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas:
+        "titulo titulo img"
+        "parrafo parrafo img"
+        "boton ... img"
+        "subtitulo subtitulo subtitulo";
+
+    width: 70%;
+}
+
+.gridConteiner h2 {
+    grid-area: titulo;
+    font-size: 2rem;
+
+}
+
+.gridConteiner p {
+    grid-area: parrafo;
+}
+
+.gridConteiner button {
+    grid-area: boton;
+}
+
+.gridConteiner img {
+    grid-area: img;
+    margin: auto;
+    width: 200px;
+}
+
+.gridConteiner h4 {
+    grid-area: subtitulo;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.gridConteiner2 {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas:
+        "titulo titulo img"
+        "parrafo parrafo img"
+        "boton ... img"
+        "subtitulo subtitulo subtitulo";
+
+    width: 80%;
+}
+
+.gridConteiner2 h2 {
+    grid-area: titulo;
+    font-size: 2rem;
+
+
+}
+
+.gridConteiner2 p {
+    grid-area: parrafo;
+}
+
+.gridConteiner2 button {
+    grid-area: boton;
+}
+
+.gridConteiner2 img {
+    grid-area: img;
+    margin: auto;
+    width: 200px;
+}
+
+.gridConteiner2 h4 {
+    grid-area: subtitulo;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.productos p {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    grid-area: parrafo;
+}
+
+.productos .rollos {
+    grid-area: img1;
+    margin: auto;
+    width: 300px;
+
+}
+.logo{
+    grid-area: logo;
+}
+.df-ul{
+    grid-area: nav;
+}
+.productos .foto-naranja {
+    grid-area: img2;
+    margin: auto;
+    width: 300px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: 25% 25% 50%;
+    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-areas:
+        "parrafo parrafo img1"
+        "parrafo parrafo img2";
+    width: 80%;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .productos{
+        display: grid;
+        grid-template-columns: 1vh;
+        grid-template-columns: min-content min-content min-content;
+        grid-template-areas:
+        "parrafo"
+        "img1"
+        "img2";
+    }
+    .gridConteiner{
+        display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content min-content;
+    grid-template-areas:
+        "titulo"
+        "img"
+        "parrafo"
+        "boton"
+        "subtitulo";
+        gap: 10px;
+        width: 70%;
+    }
+}

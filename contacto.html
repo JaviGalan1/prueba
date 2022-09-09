@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="icon" type="favicon" href="./iconos/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Impresiones en 3D</title>
+</head>
+
+<body>
+    <header class="df-navbar">
+        <div class="logo">
+            <img src="./imagenes/Logo3DESeos.png" alt="logo" id=arriba>
+             <p>3D.seos</p>
+        </div>
+         <nav>
+             <ul class="df-ul">
+                <li><a href="./index.html">Inicio</a></li>
+                 <li><a href="./nosotros.html">Nosotros</a></li>
+                 <li><a href="./trabajos.html">Trabajos</a></li>
+                 <li><a href="./contacto.html">Contacto</a></li>
+                 <li><a href="./sucursales.html">Sucursales</a></li>
+             </ul>
+         </nav>
+     </header>
+    <main>    
+        <h2 class="subtitulo">Contacto</h2>
+        <section class="cajaFormu">
+           
+            <form action="">
+                <fieldset>
+                    <legend>Completa el forulario:</legend>
+                    <div class="campo">
+                        <label for="campo"></label>
+                        <input type="radio" name="campo" value="tecnico">servicio tecnico
+                        <input type="radio" name="zona" value="consultas">consultas
+                    </div>
+                    <legend class="tusDatos">Tus Datos:</legend>
+                    <div class="dato">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" placeholder="Juan">
+                        <label for="name">Apellido</label>
+                        <input type="text" name="apellido" placeholder="Perez">
+                    </div>
+                    <div class="provincias">
+                        <label for="Localidad">Provincias</label>
+                        <select name="localidad" id="">
+                            <option value="sa">Santa fe</option>
+                            <option value="co">Cordoba</option>
+                            <option value="en">Entre rios</option>
+                        </select>
+                    </div>
+                    <div class="mail">
+                        <label for="mail">Mail:</label>
+                        <input type="text" required>
+                        <label for="term">Acepto terminos y condiiciones</label>
+                        <input type="checkbox" name="term">
+                        <input type="submit" value="enviar datos">
+                    </div>
+                </fieldset>
+        </section>
+    </main>
+    <footer class="bg-footer df-flex">
+        <h3 class="tex-footer">Creado por Javier Galan</h3>
+        <div class="redes">
+            <a href="https://z-p15.www.instagram.com/accounts/login/?next=/p/CK8SOUgBxgo/&hl=es-la" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="#arriba"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/b1da3ffbcc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
