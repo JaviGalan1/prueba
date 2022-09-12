@@ -27,7 +27,7 @@
     margin: 10px;
     padding: 10px;
     align-items: center;
-   
+
 }
 
 
@@ -153,6 +153,9 @@ section ol ul li {
 
 .materiales ol {
     padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+ 
 }
 
 .materiales ol li {
@@ -304,12 +307,15 @@ main {
     width: 300px;
 
 }
-.logo{
+
+.logo {
     grid-area: logo;
 }
-.df-ul{
+
+.df-ul {
     grid-area: nav;
 }
+
 .productos .foto-naranja {
     grid-area: img2;
     margin: auto;
@@ -328,26 +334,64 @@ main {
 }
 
 @media only screen and (max-width: 500px) {
-    .productos{
+    .productos {
         display: grid;
         grid-template-columns: 1vh;
         grid-template-columns: min-content min-content min-content;
         grid-template-areas:
-        "parrafo"
-        "img1"
-        "img2";
+            "parrafo"
+            "img1"
+            "img2";
     }
-    .gridConteiner{
+
+    .gridConteiner {
         display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content min-content min-content min-content;
-    grid-template-areas:
-        "titulo"
-        "img"
-        "parrafo"
-        "boton"
-        "subtitulo";
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        grid-template-areas:
+            "titulo"
+            "img"
+            "parrafo"
+            "boton"
+            "subtitulo";
         gap: 10px;
         width: 70%;
     }
+    .gridConteiner2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content min-content min-content;
+        grid-template-areas:
+            "titulo"
+            "img"
+            "parrafo"
+            "boton"
+            "subtitulo";
+        gap: 10px;
+        width: 70%;
+    }
+
+    .df-navbar {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .df-ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .mapa{
+        width: 70vw;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+    }
+    ul li a:hover {
+        background-color: blueviolet;
+        color: brown;
+        border-radius: 8px;
+        padding: 0.2rem;
+}
+
 }
