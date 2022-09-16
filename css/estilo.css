@@ -5,23 +5,13 @@
 }
 
 /*HEADER*/
-.df-navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    color: rgb(182, 4, 78);
-    background-color: rgb(205, 162, 247);
-    height: 100px;
-
-}
-
-.logo {
+.navbar-brand {
     display: flex;
     align-items: center;
+    justify-content: left;
 }
 
-.logo img {
+.navbar-brand img {
     border-radius: 50%;
     width: 100px;
     margin: 10px;
@@ -29,7 +19,11 @@
     align-items: center;
 
 }
-
+.collapse{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
 
 ul {
 
@@ -57,11 +51,11 @@ ul li a:hover {
 }
 
 body {
-    background-color: rgb(151, 151, 253);
+    background-color: rgb(13, 13, 53);
     font-family: 'Roboto', sans-serif;
     align-items: center;
     text-align: center;
-    color: aliceblue;
+    color: rgb(124, 14, 134);
 }
 
 
