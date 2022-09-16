@@ -45,7 +45,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 165);
     color: brown;
     border-radius: 8px;
 }
