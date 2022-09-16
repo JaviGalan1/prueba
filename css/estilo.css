@@ -123,6 +123,13 @@ section ol ul li {
 
 .rollos {
     width: 300px;
+transition: all 3s ease;
+}
+.rollos:hover{
+    transform: rotate(10deg);
+}
+.foto-naranja:hover{
+    transform: rotate(10deg);
 }
 .foto-naranja {
     width: 300px;
