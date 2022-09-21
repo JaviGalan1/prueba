@@ -338,6 +338,7 @@ main {
 @media only screen and (max-width: 500px) {
     .productos {
         display: grid;
+        justify-content: center;
         grid-template-columns: 1vh;
         grid-template-columns: min-content min-content min-content;
         grid-template-areas:
