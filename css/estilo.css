@@ -5,10 +5,8 @@
 }
 
 /*HEADER*/
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    justify-content: left;
+.navbar-nav {
+    align-items: flex-end;
 }
 
 .navbar-brand img {
@@ -23,15 +21,7 @@
 .collapse {
     display: flex;
     align-items: center;
-    justify-content: right;
-}
-
-ul {
-
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style-type: none;
+    justify-content: flex-end;
 }
 
 ul li a {
@@ -203,7 +193,6 @@ main {
     flex-direction: column;
     align-items: center;
 
-
 }
 
 .sucursales p {
@@ -310,14 +299,6 @@ main {
 
 }
 
-.logo {
-    grid-area: logo;
-}
-
-.df-ul {
-    grid-area: nav;
-}
-
 .productos .foto-naranja {
     grid-area: img2;
     margin: auto;
@@ -327,7 +308,7 @@ main {
 .productos {
     display: grid;
     grid-template-columns: 25% 25% 50%;
-    grid-template-rows: min-content min-content min-content min-content;
+    grid-template-rows: min-content min-content;
     grid-template-areas:
         "parrafo parrafo img1"
         "parrafo parrafo img2";
@@ -375,19 +356,7 @@ main {
         width: 70%;
     }
 
-    .df-navbar {
-        display: flex;
-        flex-direction: column;
-        height: fit-content;
-    }
-
-    .df-ul {
-        display: flex;
-        flex-direction: column;
-    }
-
     .mapa {
-        width: 70vw;
         display: flex;
         justify-content: center;
         text-align: center;
@@ -398,6 +367,10 @@ main {
         color: brown;
         border-radius: 8px;
         padding: 0.2rem;
+    }
+    .columna{
+        display: flex;
+        flex-direction: column;
     }
 
 }
