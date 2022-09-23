@@ -32,7 +32,6 @@ ul li a {
     font-weight: bold;
     color: rgb(165, 46, 101);
 
-
 }
 
 ul li a:hover {
@@ -47,16 +46,6 @@ body {
     align-items: center;
     text-align: center;
     color: rgb(124, 14, 134);
-}
-
-
-.cajaFormu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-
-
 }
 
 .fotos-trabajos {
@@ -82,26 +71,6 @@ section ol ul li {
     color: black;
     font-weight: bold;
 
-}
-
-.campo {
-    margin: 10px;
-    padding: 5px;
-
-}
-
-.dato {
-    margin: 10px;
-    padding: 5px;
-}
-
-.mail {
-    margin: 10px;
-    padding: 5px;
-}
-
-.mate {
-    height: 300px;
 }
 
 .mapa {
@@ -136,11 +105,6 @@ section ol ul li {
     text-align: center;
     padding: 10px;
 
-}
-
-.materiales h2 {
-    color: rgb(37, 3, 70);
-    padding: 5px;
 }
 
 .materiales ol {
@@ -368,7 +332,8 @@ main {
         border-radius: 8px;
         padding: 0.2rem;
     }
-    .columna{
+
+    .columna {
         display: flex;
         flex-direction: column;
     }
