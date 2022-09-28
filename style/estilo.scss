@@ -1,0 +1,15 @@
+@import "./partials/variables";
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/footer";
+@import "./partials/reset";
+
+
+
+body {
+    background-color: $maincolor;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    text-align: center;
+    color: rgb(124, 14, 134);
+}

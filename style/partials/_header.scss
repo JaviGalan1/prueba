@@ -1,0 +1,25 @@
+    .navbar-brand img {
+        border-radius: 50%;
+        width: 130px;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    .collapse {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        ul li a {
+            color: rgb(165, 46, 101);
+            list-style: none;
+            font-family: 'Roboto', sans-serif;
+            margin: 5px;
+            padding: 1rem;
+            font-weight: bold;
+            &:hover {background-color: blueviolet;
+                color: brown;
+                border-radius: 8px;
+                }
+        }
+    }

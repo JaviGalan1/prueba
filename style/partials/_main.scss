@@ -1,0 +1,47 @@
+.productos {
+    padding: 10px;
+
+    .rollos {
+        width: 300px;
+        transition: all 3s ease;
+
+        &:hover {
+            transform: rotate(10deg);
+        }
+    }
+
+    .foto-naranja {
+        width: 300px;
+        height: 300px;
+        transition: all 3s ease;
+
+        &:hover {
+            transform: rotate(10deg);
+        }
+    }
+
+    p {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        grid-area: parrafo;
+    }
+}
+
+.sucursales {
+    p {
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+.subtitulo {
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+}
