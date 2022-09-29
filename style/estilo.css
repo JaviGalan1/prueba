@@ -82,7 +82,8 @@ body {
 
 .bg-footer {
   background-color: rgb(194, 145, 240);
-  padding: 10px;
+  padding: 5px;
+  text-align: center;
 }
 .bg-footer .tex-footer {
   text-transform: capitalize;
