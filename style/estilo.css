@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar-brand img {
   border-radius: 50%;
   width: 130px;
@@ -22,6 +29,14 @@
   background-color: blueviolet;
   color: brown;
   border-radius: 8px;
+}
+
+body {
+  background-color: rgb(252, 135, 135);
+  font-family: "Roboto", sans-serif;
+  align-items: center;
+  text-align: center;
+  color: rgb(124, 14, 134);
 }
 
 .productos {
@@ -90,19 +105,4 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-  background-color: rgb(252, 135, 135);
-  font-family: "Roboto", sans-serif;
-  align-items: center;
-  text-align: center;
-  color: rgb(124, 14, 134);
 }/*# sourceMappingURL=estilo.css.map */
