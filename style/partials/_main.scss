@@ -5,6 +5,7 @@ body {
     text-align: center;
     color: rgb(124, 14, 134);
 }
+
 .productos {
     padding: 10px;
 
@@ -51,4 +52,14 @@ body {
     text-decoration: none;
     text-align: center;
     padding: 10px;
+}
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario {
+    @include flex-column-center;
 }
